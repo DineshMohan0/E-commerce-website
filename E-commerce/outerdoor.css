@@ -1,0 +1,115 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the showcase section */
+  #showcase {
+    height: 400px;
+  }
+  
+  /* Style the product container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the product card */
+  .col-4 {
+    flex: 0 0 24%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col-4 img {
+    width: 100%;
+  }
+  
+  .rating {
+    color: gold;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-cols {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-cols ul {
+    list-style: none;
+  }
+  
+  .footer-cols li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-cols a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #111;
+    padding: 10px 0;
+  }
+  
